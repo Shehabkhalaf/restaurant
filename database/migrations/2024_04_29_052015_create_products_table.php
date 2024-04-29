@@ -18,7 +18,6 @@ return new class extends Migration
             $table->double('initial_price');
             $table->double('final_price');
             $table->text('description');
-            $table->integer('stock');
             $table->string('image');
             $table->timestamps();
         });
